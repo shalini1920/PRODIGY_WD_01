@@ -1,0 +1,37 @@
+# PRODIGY_WD_01 — Weather App
+
+## 📌 Task Details
+
+*Track:* Web Development (PRODIGY_WD)  
+*Task Number:* 01 — Weather App  
+*Description:*  
+A beautiful weather dashboard that fetches real-time weather data using OpenWeatherMap API. Features:
+- City search
+- Current location
+- 5-day forecast
+- Dark mode toggle
+- Fully responsive design
+
+## 🚀 Tech Stack
+
+- HTML
+- CSS (with Dark Mode)
+- Vanilla JavaScript
+- OpenWeatherMap API
+
+## 🌐 Live Link
+
+[View the app here](https://shalini1920.github.io/PRODIGY_WD_01/)
+
+## 📂 How to run
+
+1. Clone this repo
+2. Open index.html with Live Server
+
+## 📸 Screenshots
+
+Add screenshots here if you want.
+
+---
+
+✅ *Task complete!*

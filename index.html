@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="toggle-btn" id="toggle-dark">🌙 Dark Mode</button>
+  <div class="container">
+    <h1>Weather Dashboard</h1>
+    <label class="switch">
+  <input type="checkbox" id="theme-toggle">
+  <span class="slider"></span>
+</label>
+    <div class="search-box">
+        <div id="loader" class="loader" style="display: none;"></div>
+      <input type="text" id="city-input" placeholder="Enter city ">
+      <button id="search-btn">Search</button>
+      <button id="location-btn">Use Current Location</button>
+    </div>
+    <div id="error-message" class="error"></div>
+
+    <div class="weather-info">
+      <h2 id="location-name"></h2>
+      <img id="weather-icon" alt="">
+      <p id="temperature"></p>
+      <p id="description"></p>
+      <p id="humidity"></p>
+      <p id="wind-speed"></p>
+    </div>
+
+    <h2>5-Day Forecast</h2>
+    <div id="forecast-cards" class="forecast-cards"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
